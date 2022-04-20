@@ -12,11 +12,12 @@ import { SearchProductsService } from '../search-products.service';
   templateUrl: './search-results.component.html',
   styleUrls: ['./search-results.component.css']
 })
+//All methods in this class are used in multiple components on the Frontend.
 export class SearchResultsComponent implements OnInit {
 
   selected = 'option2';
   errorMessage!: string;
-
+  //Referenced in TrackUserSearches Component
   showResults: SearchProducts[] = [];
   selectedProducts!: SearchProducts;
 

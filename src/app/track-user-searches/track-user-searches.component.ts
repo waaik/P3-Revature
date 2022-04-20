@@ -11,12 +11,12 @@ import { TrackUserSearchesService } from '../track-user-searches.service';
   styleUrls: ['./track-user-searches.component.css']
 })
 export class TrackUserSearchesComponent implements OnInit {
-
-  products!: Products[];
+//products! is a reference to the SearchProduct[] in search-results.component.ts
+  products!: SearchProducts[];
   constructor(private trackUserSearches: TrackUserSearchesService) { }
-
+//Function for retrieving the books by BookID method in TrackUserSearchesService
   ngOnInit(): void {
-    this.trackUserSearches.getBookId().subscribe((data: Products[]) => {
+    this.trackUserSearches.getBookId().subscribe((data: SearchProducts[]) => {
       console.log(data);
       this.products! = data;
     })

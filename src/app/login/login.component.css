@@ -30,6 +30,12 @@ body {
   color: #69626d;
 }
 
+.forgot {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 80px;
+}
+
 .box {
   position: relative;
   top: 0;

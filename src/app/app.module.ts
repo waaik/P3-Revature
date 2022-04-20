@@ -44,6 +44,7 @@ import { UpdateBookComponent } from './update-book/update-book.component';
 import { FeaturedProductsComponent } from './featured-products/featured-products.component';
 import { NgxSlickJsModule } from 'ngx-slickjs';
 import { TrackUserSearchesComponent } from './track-user-searches/track-user-searches.component';
+import { ResetPasswordComponent } from './reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { TrackUserSearchesComponent } from './track-user-searches/track-user-sea
     AdminFeatureComponent,
     UpdateBookComponent,
     FeaturedProductsComponent,
-    TrackUserSearchesComponent
+    TrackUserSearchesComponent,
+    ResetPasswordComponent
   ],
   imports: [
     BrowserModule,

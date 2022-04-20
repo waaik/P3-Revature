@@ -4,6 +4,8 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
+/*Connects to the Book Controller class on the Backend with assigned mappings.
+* Methods in this class are being used by various components on the Frontend*/
 export class SearchProductsService {
 
   constructor(private http: HttpClient) { }
