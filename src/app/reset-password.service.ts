@@ -10,7 +10,7 @@ import {HttpClient} from "@angular/common/http";
 export class ResetPasswordService {
 
   constructor(private http: HttpClient) { }
-  //Method from the Login Service class
+  //Method from the Login Service class....
   checkLoginStatus() {
     return this.http.get(`http://localhost:8081/loginstatus`,{
       //'http://ec2-54-84-57-117.compute-1.amazonaws.com:8081/loginstatus', {
